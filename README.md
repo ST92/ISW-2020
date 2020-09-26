@@ -1,29 +1,59 @@
 # ISW-2020
 Trabajo práctico para la cátedra Ingeniería de Software - UTN FRSF
 
-Integrantes:
+### Integrantes:
     Gallino Juan Manuel.
     Moreno Carla.
     Montalvo Santiago.
     Romero Pedro.
-    Tuma Sebastiánl.
+    Tuma Sebastián.
+
+### Requerimientos
+    Tener instalado el motor de node.js para instalar las dependencias necesarias del proyecto y poder compilarlo.
+
+### Comandos útiles
+#### Para instalar dependencias: npm install
+#### Para compilar el proyecto: ng serve
+#### Una vez compilado, dirigirse al navegador web e ingresar la url localhost:4200
 
 
-Consignas:
-Crear un repositorio GIT en Github. Otorgar permisos de lectura a los docentes de la cátedra. 
-Subir al repositorio un software de su elección (preferentemente en Java pero pueden utilizar el lenguaje y framework que deseen). Sobre este software:
-Realizar una modificación y publicarla
-¿Cómo hacemos para no subir cambios de configuraciones locales? Configurar el repositorio para ignorar estos archivos.
-Crear un nuevo branch para Release 1
-Crear un nuevo branch para Release 2
-Realizar modificaciones en Release 1
-Crear un PR sobre Release 2 y realizar modificaciones
-Llevar al entorno productivo Release 1. ¿Cómo lo hace siguiendo Gitflow?
-Lograr un merge de ambas ramas con master. Publicar una nueva versión.
-Crear otra rama para incorporar una nueva funcionalidad.
-Sobre esta nueva rama, creada en el punto anterior, realizar una modificación A y publicarla. Luego realizar una modificación B y publicarla. Deshacer la modificación B volviendo al estado en A.
-Llevar los cambios de la rama creada en el punto h a producción. ¿Cómo lo hace siguiendo Gitflow?
+### Consignas:
+#### 2b)
+Para configurar los archivos que no serán subidos al repositorio, se deben agregar las extensiones de archivos o directorios deseados al archivo .gitignore dentro del repositorio.
+La ruta del mismo es ISW-2020/isw/.gitignore
+#### El resto de los incisos se puede trackear con los mensajes de commit, merge, pull requests y releases en el repositorio.
 
-¿Cómo podemos documentar con git? 
-Realizar un readme para el código subido. ¿Qué cosas podrían? Versionar el README en el repositorio.
-Si un externo realiza una modificación. Les gustaría que complete cosas en el PR para entender el cambio. ¿Qué datos le pediría?, ¿Qué nos ofrece GitHub para ayudarnos con esto? 
+#### 3 a)
+Para el README agregaríamos:
+ - Instrucciones de configuración.
+ - Instrucciones de instalación.
+ - Instrucciones de operación.
+ - Un manifiesto de archivos.
+ - Información sobre la licencia.
+ - Información sobre el desarrollador.
+ - Bugs conocidos.
+ - Solución de problemas​.
+ - Créditos y agradecimientos.
+ - Un registro de cambios.
+ - Una sección de noticias.
+
+#### 3 b)
+ - Que el código compile.
+ - Que sea pequeño el cambio. Es decir, que los cambios introducidos repercuta lo menor posible.
+ - Que tenga un solo objetivo, es decir que no incluya varias cuestiones.
+ - Que no obligue a desplazarse lateralmente para leer el código, mantenerlo por debajo de 80 caracteres por línea.
+ - Que respete el formato de desarrollar el código de la manera en que se viene realizando.
+ - Que resulte exitoso al pasar por los tests.
+ - Que agregue nuevos tests.
+ - Que documente el razonamiento que utilizó para desarrollarlo.
+ - Que no tenga errores ortográficos y que esté bien redactado.
+
+ Github te provee los asignees y los reviewers como medio de control de los pull request de forma que si se genera uno, sea aprobado por determinadas personas antes de ejecutar un merge. A dichas personas se les permite revisar los cambios que provee dicho pull request con respecto al proyecto de forma que no se generen conflictos o sea un cambio aceptable.
+
+ Además, GitHub permite la creación de plantillas para los Pull Request, permitiendo personalizar y estandarizar la información que le gustaría que se incluyera cuando los colaboradores crean Pull Request.
+
+
+
+
+
+
